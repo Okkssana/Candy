@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__img-bg">
+      <img class="header__img animate__animated animate__fadeInRight animate__slow animate__delay-3s"
+        src="images/Без-имени-3.png" alt="">
+    </div>
+    <div class="container">
+
+
+      <div class="header__inner">
+        <a class="logo" href="#">
+          <img class="logo__img" src="images/logo.svg" alt="">
+        </a>
+        <nav class="header__menu">
+          <button class="header__btn">
+            <?xml version="1.0" encoding="UTF-8"?>
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="18" viewBox="0 0 30 18" fill="none">
+              <path d="M0 0H30V2H0V0Z" fill="black"></path>
+              <path d="M0 8H30V10H0V8Z" fill="black"></path>
+              <rect y="16" width="30" height="2" fill="black"></rect>
+            </svg>
+          </button>
+          <ul class="header__menu-items">
+            <li class="header__menu-item">
+              <a class="header__menu-link" href="#sale">АКЦИИ</a>
+            </li>
+            <li class="header__menu-item">
+              <a class="header__menu-link" href="#price">ЦЕНЫ</a>
+            </li>
+            <li class="header__menu-item">
+              <a class="header__menu-link" href="#gallery">ГАЛЕРЕЯ</a>
+            </li>
+            <li class="header__menu-item">
+              <a class="header__menu-link" href="#about">О НАС</a>
+            </li>
+            <li class="header__menu-item">
+              <a class="header__menu-link" href="#contact">КОНТАКТЫ</a>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- <div class="contact">
+          <div class="contact__item">
+            <a class="phone" href="tel:+380500000000">+380 (50) 000 00 00</a>
+            <div class="address">Николаев, ул.Большая Морская, 72б</div>
+          </div>
+          <div class="contact__item">
+            <a class="phone" href="tel:+380500000001">+380 (50) 000 00 01</a>
+            <div class="address">Николаев, ул.Соборная, 5в</div>
+          </div>
+        </div> -->
+      </div>
+    </div>
+  </header>
+  <div class="info">
+    <div class="container">
+      <div class="info__wrapper" style="background-image: url(images/info-bg.png);">
+        <div class="info__img-box"><img class="info__img" src="images/descr-img.jpg" alt=""></div>
+        <div class="info__text">"КОНФЕТКА" - зоосалон профессионального груминга для собак и кошек. Мы предоставляем
+          полный комплекс процедур необходимый Вашему любимцу.</div>
+      </div>
+
+    </div>
+  </div>
+  <section class="slider">
+    <a class="slider-anchor" href="#" id="sale"></a>
+    <div class="container">
+      <h3 class="slider__title title">НАШИ АКЦИИ</h3>
+      <div class="slider__items">
+        <div class="slider__item">
+          <div class="slider__wrapper">
+            <div class="slider__img-box">
+              <img class="slider__img" src="images/slider/photo2.jpg" alt="">
+            </div>
+            <div class="slider__text-box">
+              <span class="slider__item-subtitle">КАЖДЫЙ ЧЕТВЕРГ!</span>
+              <h3 class="slider__item-title">скидка на все услуги</h3>
+              <p class="slider__item-text">20%</p>
+            </div>
+          </div>
+
+        </div>
+        <div class="slider__item">
+          <div class="slider__wrapper">
+            <div class="slider__img-box">
+              <img class="slider__img" src="images/slider/photo3.jpg" alt="">
+            </div>
+            <div class="slider__text-box">
+              <span class="slider__item-subtitle">В ДЕНЬ РОЖДЕНИЯ</span>
+              <h3 class="slider__item-title">стрижка со скидкой</h3>
+              <p class="slider__item-text">50%</p>
+            </div>
+          </div>
+        </div>
+        <div class="slider__item">
+          <div class="slider__wrapper">
+            <div class="slider__img-box">
+              <img class="slider__img" src="images/slider/photo1.jpg" alt="">
+            </div>
+            <div class="slider__text-box">
+              <span class="slider__item-subtitle">АКЦИЯ!!!</span>
+              <h3 class="slider__item-title">груминг щенка</h3>
+              <p class="slider__item-text">50%</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <section class="services">
+    <a class="services-anchor" href="#" id="price"></a>
+    <div class="container">
+      <div class="services__wrapper">
+        <h3 class="services__title title">УСЛУГИ И ЦЕНЫ</h3>
+
+        <div class="services__box services__box-adapt">
+          <ul class="services__nav">
+            <li class="services__nav-descr active descr-1" data-tab="tab-1" data-descr="descr-1">Декоративные</li>
+            <li class="services__nav-descr descr-2" data-tab="tab-2" data-descr="descr-2">Средние</li>
+            <li class="services__nav-descr descr-3" data-tab="tab-3" data-descr="descr-3">Крупные</li>
+            <li class="services__nav-descr descr-4" data-tab="tab-4" data-descr="descr-4">Кошки</li>
+          </ul>
+
+
+          <div class="services__table-box tab-1" data-tab-content>
+            <div class="services__table-wrapper">
+              <table class="services__table">
+                <tr class="services__table-inner">
+                  <th class="services__table-title services__table-descr">УСЛУГИ</th>
+                  <th class="services__table-title services__table-price">ЦЕНА (грн)</th>
+                </tr>
+                <tr class="services__table-inner">
+                  <td class="services__table-descr">Модельное настригание головы</td>
+                  <td class="services__table-price">210</td>
+                </tr>
+                <tr class="services__table-inner">
+                  <td class="services__table-descr">Наклеивание страз 1шт</td>
+                  <td class="services__table-price">10</td>
+                </tr>
+                <tr class="services__table-inner">
+                  <td class="services__table-descr">Топ кнот + бантик в подарок</td>
+                  <td class="services__table-price">50</td>
+                </tr>
+                <tr class="services__table-inner">
+                  <td class="services__table-descr">Окантовка лап</td>
+                  <td class="services__table-price">130</td>
+                </tr>
+                <tr class="services__table-inner">
+                  <td class="services__table-descr">Окантовка ушей</td>
+                  <td class="services__table-price">130</td>
+                </tr>
+                <tr class="services__table-inner">
+                  <td class="services__table-descr">Укладка феном</td>
+                  <td class="services__table-price">40</td>
+                </tr>
+                <tr class="services__table-inner">
+                  <td class="services__table-descr">Чистка ушей</td>
+                  <td class="services__table-price">130</td>
+                </tr>
+                <tr class="services__table-inner">
+                  <td class="services__table-descr">Обрезка коготков</td>
+                  <td class="services__table-price">170</td>
+                </tr>
+                <tr class="services__table-inner">
+                  <td class="services__table-descr">Чистка зубов</td>
+                  <td class="services__table-price">230</td>
+                </tr>
+                <tr class="services__table-inner">
+                  <td class="services__table-descr">Вычесывание подшерстка</td>
+                  <td class="services__table-price">170</td>
+                </tr>
+                <tr class="services__table-inner">
+                  <td class="services__table-descr">Подстригание между подушечками лап</td>
+                  <td class="services__table-price">150</td>
+                </tr>
+                <tr class="services__table-inner">
+                  <td class="services__table-descr">Маникюр с покрытием</td>
+                  <td class="services__table-price">370</td>
+                </tr>
+                <tr class="services__table-inner">
+                  <td class="services__table-descr">Креативный груминг</td>
+                  <td class="services__table-price">500-1000</td>
+                </tr>
+                <tr class="services__table-inner">
+                  <td class="services__table-descr">Нанесение парфюма</td>
+                  <td class="services__table-price">150</td>
+                </tr>
+                <tr class="services__table-inner">
+                  <td class="services__table-descr">SPA уход</td>
+                  <td class="services__table-price">400</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+          <div class="services__table-box hidden tab-2" data-tab-content>
+            <div class="services__table-wrapper">
+              <table class="services__table">
+                <tr class="services__table-inner">
+                  <th class="services__table-title services__table-descr">УСЛУГИ</th>
+                  <th class="services__table-title services__table-price">ЦЕНА (грн)</th>
+                </tr>
+                <tr class="services__table-inner">
+                  <td class="services__table-descr">Модельное настригание головы</td>
+                  <td class="services__table-price">210</td>
+                </tr>
+                <tr class="services__table-inner">
+                  <td class="services__table-descr">Наклеивание страз 1шт</td>
+                  <td class="services__table-price">10</td>
+                </tr>
+                <tr class="services__table-inner">
+                  <td class="services__table-descr">Окантовка лап</td>
+                  <td class="services__table-price">130</td>
+                </tr>
+                <tr class="services__table-inner">
+                  <td class="services__table-descr">Окантовка ушей</td>
+                  <td class="services__table-price">130</td>
+                </tr>
+                <tr class="services__table-inner">
+                  <td class="services__table-descr">Укладка феном</td>
+                  <td class="services__table-price">40</td>
+                </tr>
+                <tr class="services__table-inner">
+                  <td class="services__table-descr">Чистка ушей</td>
+                  <td class="services__table-price">130</td>
+                </tr>
+                <tr class="services__table-inner">
+                  <td class="services__table-descr">Обрезка коготков</td>
+                  <td class="services__table-price">170</td>
+                </tr>
+                <tr class="services__table-inner">
+                  <td class="services__table-descr">Чистка зубов</td>
+                  <td class="services__table-price">230</td>
+                </tr>
+                <tr class="services__table-inner">
+                  <td class="services__table-descr">Вычесывание подшерстка</td>
+                  <td class="services__table-price">170</td>
+                </tr>
+                <tr class="services__table-inner">
+                  <td class="services__table-descr">Подстригание между подушечками лап</td>
+                  <td class="services__table-price">150</td>
+                </tr>
+                <tr class="services__table-inner">
+                  <td class="services__table-descr">Маникюр с покрытием</td>
+                  <td class="services__table-price">370</td>
+                </tr>
+                <tr class="services__table-inner">
+                  <td class="services__table-descr">Креативный груминг</td>
+                  <td class="services__table-price">500-1000</td>
+                </tr>
+                <tr class="services__table-inner">
+                  <td class="services__table-descr">Нанесение парфюма</td>
+                  <td class="services__table-price">150</td>
+                </tr>
+                <tr class="services__table-inner">
+                  <td class="services__table-descr">SPA уход</td>
+                  <td class="services__table-price">400</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+          <div class="services__table-box hidden tab-3" data-tab-content>
+            <div class="services__table-wrapper">
+              <table class="services__table">
+                <tr class="services__table-inner">
+                  <th class="services__table-title services__table-descr">УСЛУГИ</th>
+                  <th class="services__table-title services__table-price">ЦЕНА (грн)</th>
+                </tr>
+                <tr class="services__table-inner">
+                  <td class="services__table-descr">Модельное настригание головы</td>
+                  <td class="services__table-price">210</td>
+                </tr>
+                <tr class="services__table-inner">
+                  <td class="services__table-descr">Наклеивание страз 1шт</td>
+                  <td class="services__table-price">10</td>
+                </tr>
+                <tr class="services__table-inner">
+                  <td class="services__table-descr">Окантовка лап</td>
+                  <td class="services__table-price">130</td>
+                </tr>
+                <tr class="services__table-inner">
+                  <td class="services__table-descr">Окантовка ушей</td>
+                  <td class="services__table-price">130</td>
+                </tr>
+                <tr class="services__table-inner">
+                  <td class="services__table-descr">Укладка феном</td>
+                  <td class="services__table-price">40</td>
+                </tr>
+                <tr class="services__table-inner">
+                  <td class="services__table-descr">Чистка ушей</td>
+                  <td class="services__table-price">130</td>
+                </tr>
+                <tr class="services__table-inner">
+                  <td class="services__table-descr">Обрезка коготков</td>
+                  <td class="services__table-price">170</td>
+                </tr>
+                <tr class="services__table-inner">
+                  <td class="services__table-descr">Чистка зубов</td>
+                  <td class="services__table-price">230</td>
+                </tr>
+                <tr class="services__table-inner">
+                  <td class="services__table-descr">Вычесывание подшерстка</td>
+                  <td class="services__table-price">170</td>
+                </tr>
+                <tr class="services__table-inner">
+                  <td class="services__table-descr">Подстригание между подушечками лап</td>
+                  <td class="services__table-price">150</td>
+                </tr>
+                <tr class="services__table-inner">
+                  <td class="services__table-descr">Маникюр с покрытием</td>
+                  <td class="services__table-price">370</td>
+                </tr>
+                <tr class="services__table-inner">
+                  <td class="services__table-descr">Креативный груминг</td>
+                  <td class="services__table-price">500-1000</td>
+                </tr>
+                <tr class="services__table-inner">
+                  <td class="services__table-descr">Нанесение парфюма</td>
+                  <td class="services__table-price">150</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+          <div class="services__table-box hidden tab-4" data-tab-content>
+            <div class="services__table-wrapper">
+              <table class="services__table">
+                <tr class="services__table-inner">
+                  <th class="services__table-title services__table-descr">УСЛУГИ</th>
+                  <th class="services__table-title services__table-price">ЦЕНА (грн)</th>
+                </tr>
+                <tr class="services__table-inner">
+                  <td class="services__table-descr">Стрижка</td>
+                  <td class="services__table-price">410</td>
+                </tr>
+                <tr class="services__table-inner">
+                  <td class="services__table-descr">Наклеивание страз 1шт</td>
+                  <td class="services__table-price">10</td>
+                </tr>
+                <tr class="services__table-inner">
+                  <td class="services__table-descr">Укладка феном</td>
+                  <td class="services__table-price">40</td>
+                </tr>
+                <tr class="services__table-inner">
+                  <td class="services__table-descr">Чистка ушей</td>
+                  <td class="services__table-price">130</td>
+                </tr>
+                <tr class="services__table-inner">
+                  <td class="services__table-descr">Обрезка коготков</td>
+                  <td class="services__table-price">170</td>
+                </tr>
+                <tr class="services__table-inner">
+                  <td class="services__table-descr">Чистка зубов</td>
+                  <td class="services__table-price">230</td>
+                </tr>
+                <tr class="services__table-inner">
+                  <td class="services__table-descr">Вычесывание подшерстка</td>
+                  <td class="services__table-price">170</td>
+                </tr>
+                <tr class="services__table-inner">
+                  <td class="services__table-descr">Мейнкун комплекс со стрижкой</td>
+                  <td class="services__table-price">630</td>
+                </tr>
+                <tr class="services__table-inner">
+                  <td class="services__table-descr">Маникюр с покрытием</td>
+                  <td class="services__table-price">370</td>
+                </tr>
+                <tr class="services__table-inner">
+                  <td class="services__table-descr">Креативный груминг</td>
+                  <td class="services__table-price">500-1000</td>
+                </tr>
+                <tr class="services__table-inner">
+                  <td class="services__table-descr">Нанесение парфюма</td>
+                  <td class="services__table-price">150</td>
+                </tr>
+                <tr class="services__table-inner">
+                  <td class="services__table-descr">SPA уход</td>
+                  <td class="services__table-price">400</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="services__box services__box-adap">
+          <div class="services__nav-descr" data-tab="tab-1">Декоративные</div>
+          <div class="services__box-table">
+            <div class="services__table-box">
+              <div class="services__table-wrapper">
+                <table class="services__table">
+                  <tr class="services__table-inner">
+                    <th class="services__table-title services__table-descr">УСЛУГИ</th>
+                    <th class="services__table-title services__table-price">ЦЕНА (грн)</th>
+                  </tr>
+                  <tr class="services__table-inner">
+                    <td class="services__table-descr">Модельное настригание головы</td>
+                    <td class="services__table-price">210</td>
+                  </tr>
+                  <tr class="services__table-inner">
+                    <td class="services__table-descr">Наклеивание страз 1шт</td>
+                    <td class="services__table-price">10</td>
+                  </tr>
+                  <tr class="services__table-inner">
+                    <td class="services__table-descr">Топ кнот + бантик в подарок</td>
+                    <td class="services__table-price">50</td>
+                  </tr>
+                  <tr class="services__table-inner">
+                    <td class="services__table-descr">Окантовка лап</td>
+                    <td class="services__table-price">130</td>
+                  </tr>
+                  <tr class="services__table-inner">
+                    <td class="services__table-descr">Окантовка ушей</td>
+                    <td class="services__table-price">130</td>
+                  </tr>
+                  <tr class="services__table-inner">
+                    <td class="services__table-descr">Укладка феном</td>
+                    <td class="services__table-price">40</td>
+                  </tr>
+                  <tr class="services__table-inner">
+                    <td class="services__table-descr">Чистка ушей</td>
+                    <td class="services__table-price">130</td>
+                  </tr>
+                  <tr class="services__table-inner">
+                    <td class="services__table-descr">Обрезка коготков</td>
+                    <td class="services__table-price">170</td>
+                  </tr>
+                  <tr class="services__table-inner">
+                    <td class="services__table-descr">Чистка зубов</td>
+                    <td class="services__table-price">230</td>
+                  </tr>
+                  <tr class="services__table-inner">
+                    <td class="services__table-descr">Вычесывание подшерстка</td>
+                    <td class="services__table-price">170</td>
+                  </tr>
+                  <tr class="services__table-inner">
+                    <td class="services__table-descr">Подстригание между подушечками лап</td>
+                    <td class="services__table-price">150</td>
+                  </tr>
+                  <tr class="services__table-inner">
+                    <td class="services__table-descr">Маникюр с покрытием</td>
+                    <td class="services__table-price">370</td>
+                  </tr>
+                  <tr class="services__table-inner">
+                    <td class="services__table-descr">Креативный груминг</td>
+                    <td class="services__table-price">500-1000</td>
+                  </tr>
+                  <tr class="services__table-inner">
+                    <td class="services__table-descr">Нанесение парфюма</td>
+                    <td class="services__table-price">150</td>
+                  </tr>
+                  <tr class="services__table-inner">
+                    <td class="services__table-descr">SPA уход</td>
+                    <td class="services__table-price">400</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="services__nav-descr" data-tab="tab-2">Средние</div>
+          <div class="services__box-table">
+            <div class="services__table-box">
+              <div class="services__table-wrapper">
+                <table class="services__table">
+                  <tr class="services__table-inner">
+                    <th class="services__table-title services__table-descr">УСЛУГИ</th>
+                    <th class="services__table-title services__table-price">ЦЕНА (грн)</th>
+                  </tr>
+                  <tr class="services__table-inner">
+                    <td class="services__table-descr">Модельное настригание головы</td>
+                    <td class="services__table-price">210</td>
+                  </tr>
+                  <tr class="services__table-inner">
+                    <td class="services__table-descr">Наклеивание страз 1шт</td>
+                    <td class="services__table-price">10</td>
+                  </tr>
+                  <tr class="services__table-inner">
+                    <td class="services__table-descr">Окантовка лап</td>
+                    <td class="services__table-price">130</td>
+                  </tr>
+                  <tr class="services__table-inner">
+                    <td class="services__table-descr">Окантовка ушей</td>
+                    <td class="services__table-price">130</td>
+                  </tr>
+                  <tr class="services__table-inner">
+                    <td class="services__table-descr">Укладка феном</td>
+                    <td class="services__table-price">40</td>
+                  </tr>
+                  <tr class="services__table-inner">
+                    <td class="services__table-descr">Чистка ушей</td>
+                    <td class="services__table-price">130</td>
+                  </tr>
+                  <tr class="services__table-inner">
+                    <td class="services__table-descr">Обрезка коготков</td>
+                    <td class="services__table-price">170</td>
+                  </tr>
+                  <tr class="services__table-inner">
+                    <td class="services__table-descr">Чистка зубов</td>
+                    <td class="services__table-price">230</td>
+                  </tr>
+                  <tr class="services__table-inner">
+                    <td class="services__table-descr">Вычесывание подшерстка</td>
+                    <td class="services__table-price">170</td>
+                  </tr>
+                  <tr class="services__table-inner">
+                    <td class="services__table-descr">Подстригание между подушечками лап</td>
+                    <td class="services__table-price">150</td>
+                  </tr>
+                  <tr class="services__table-inner">
+                    <td class="services__table-descr">Маникюр с покрытием</td>
+                    <td class="services__table-price">370</td>
+                  </tr>
+                  <tr class="services__table-inner">
+                    <td class="services__table-descr">Креативный груминг</td>
+                    <td class="services__table-price">500-1000</td>
+                  </tr>
+                  <tr class="services__table-inner">
+                    <td class="services__table-descr">Нанесение парфюма</td>
+                    <td class="services__table-price">150</td>
+                  </tr>
+                  <tr class="services__table-inner">
+                    <td class="services__table-descr">SPA уход</td>
+                    <td class="services__table-price">400</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div class="services__nav-descr" data-tab="tab-3">Крупные</div>
+          <div class="services__box-table">
+            <div class="services__table-box">
+              <div class="services__table-wrapper">
+                <table class="services__table">
+                  <tr class="services__table-inner">
+                    <th class="services__table-title services__table-descr">УСЛУГИ</th>
+                    <th class="services__table-title services__table-price">ЦЕНА (грн)</th>
+                  </tr>
+                  <tr class="services__table-inner">
+                    <td class="services__table-descr">Модельное настригание головы</td>
+                    <td class="services__table-price">210</td>
+                  </tr>
+                  <tr class="services__table-inner">
+                    <td class="services__table-descr">Наклеивание страз 1шт</td>
+                    <td class="services__table-price">10</td>
+                  </tr>
+                  <tr class="services__table-inner">
+                    <td class="services__table-descr">Окантовка лап</td>
+                    <td class="services__table-price">130</td>
+                  </tr>
+                  <tr class="services__table-inner">
+                    <td class="services__table-descr">Окантовка ушей</td>
+                    <td class="services__table-price">130</td>
+                  </tr>
+                  <tr class="services__table-inner">
+                    <td class="services__table-descr">Укладка феном</td>
+                    <td class="services__table-price">40</td>
+                  </tr>
+                  <tr class="services__table-inner">
+                    <td class="services__table-descr">Чистка ушей</td>
+                    <td class="services__table-price">130</td>
+                  </tr>
+                  <tr class="services__table-inner">
+                    <td class="services__table-descr">Обрезка коготков</td>
+                    <td class="services__table-price">170</td>
+                  </tr>
+                  <tr class="services__table-inner">
+                    <td class="services__table-descr">Чистка зубов</td>
+                    <td class="services__table-price">230</td>
+                  </tr>
+                  <tr class="services__table-inner">
+                    <td class="services__table-descr">Вычесывание подшерстка</td>
+                    <td class="services__table-price">170</td>
+                  </tr>
+                  <tr class="services__table-inner">
+                    <td class="services__table-descr">Подстригание между подушечками лап</td>
+                    <td class="services__table-price">150</td>
+                  </tr>
+                  <tr class="services__table-inner">
+                    <td class="services__table-descr">Маникюр с покрытием</td>
+                    <td class="services__table-price">370</td>
+                  </tr>
+                  <tr class="services__table-inner">
+                    <td class="services__table-descr">Креативный груминг</td>
+                    <td class="services__table-price">500-1000</td>
+                  </tr>
+                  <tr class="services__table-inner">
+                    <td class="services__table-descr">Нанесение парфюма</td>
+                    <td class="services__table-price">150</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div class="services__nav-descr" data-tab="tab-4">Кошки</div>
+          <div class="services__box-table">
+            <div class="services__table-box">
+              <div class="services__table-wrapper">
+                <table class="services__table">
+                  <tr class="services__table-inner">
+                    <th class="services__table-title services__table-descr">УСЛУГИ</th>
+                    <th class="services__table-title services__table-price">ЦЕНА (грн)</th>
+                  </tr>
+                  <tr class="services__table-inner">
+                    <td class="services__table-descr">Стрижка</td>
+                    <td class="services__table-price">410</td>
+                  </tr>
+                  <tr class="services__table-inner">
+                    <td class="services__table-descr">Наклеивание страз 1шт</td>
+                    <td class="services__table-price">10</td>
+                  </tr>
+                  <tr class="services__table-inner">
+                    <td class="services__table-descr">Укладка феном</td>
+                    <td class="services__table-price">40</td>
+                  </tr>
+                  <tr class="services__table-inner">
+                    <td class="services__table-descr">Чистка ушей</td>
+                    <td class="services__table-price">130</td>
+                  </tr>
+                  <tr class="services__table-inner">
+                    <td class="services__table-descr">Обрезка коготков</td>
+                    <td class="services__table-price">170</td>
+                  </tr>
+                  <tr class="services__table-inner">
+                    <td class="services__table-descr">Чистка зубов</td>
+                    <td class="services__table-price">230</td>
+                  </tr>
+                  <tr class="services__table-inner">
+                    <td class="services__table-descr">Вычесывание подшерстка</td>
+                    <td class="services__table-price">170</td>
+                  </tr>
+                  <tr class="services__table-inner">
+                    <td class="services__table-descr">Мейнкун комплекс со стрижкой</td>
+                    <td class="services__table-price">630</td>
+                  </tr>
+                  <tr class="services__table-inner">
+                    <td class="services__table-descr">Маникюр с покрытием</td>
+                    <td class="services__table-price">370</td>
+                  </tr>
+                  <tr class="services__table-inner">
+                    <td class="services__table-descr">Креативный груминг</td>
+                    <td class="services__table-price">500-1000</td>
+                  </tr>
+                  <tr class="services__table-inner">
+                    <td class="services__table-descr">Нанесение парфюма</td>
+                    <td class="services__table-price">150</td>
+                  </tr>
+                  <tr class="services__table-inner">
+                    <td class="services__table-descr">SPA уход</td>
+                    <td class="services__table-price">400</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <section class="guests">
+    <a class="guests-anchor" href="#" id="gallery"></a>
+    <div class="container">
+      <h3 class="guests__title title">
+        ФОТОГАФИИ НАШИХ ГОСТЕЙ
+      </h3>
+      <div class="guests__items">
+        <a class="guests__item" href="./images/guests/item-1.jpg">
+          <img class="guests__img" src="./images/guests/item-1.jpg" alt="">
+        </a>
+        <a class="guests__item" href="./images/guests/item-2.jpg">
+          <img class="guests__img" src="./images/guests/item-2.jpg" alt="">
+        </a>
+        <a class="guests__item" href="./images/guests/item-3.jpg">
+          <img class="guests__img" src="./images/guests/item-3.jpg" alt="">
+        </a>
+        <a class="guests__item" href="./images/guests/item-4.jpg">
+          <img class="guests__img" src="./images/guests/item-4.jpg" alt="">
+        </a>
+        <a class="guests__item" href="./images/guests/item-5.jpg">
+          <img class="guests__img" src="./images/guests/item-5.jpg" alt="">
+        </a>
+        <a class="guests__item" href="./images/guests/item-6.jpg">
+          <img class="guests__img" src="./images/guests/item-6.jpg" alt="">
+        </a>
+        <a class="guests__item" href="./images/guests/item-7.jpg">
+          <img class="guests__img" src="./images/guests/item-7.jpg" alt="">
+        </a>
+        <a class="guests__item" href="./images/guests/item-8.jpg">
+          <img class="guests__img" src="./images/guests/item-8.jpg" alt="">
+        </a>
+        <a class="guests__item" href="./images/guests/item-9.jpg">
+          <img class="guests__img" src="./images/guests/item-9.jpg" alt="">
+        </a>
+        <a class="guests__item" href="./images/guests/item-10.jpg">
+          <img class="guests__img" src="./images/guests/item-10.jpg" alt="">
+        </a>
+        <a class="guests__item" href="./images/guests/item-11.jpg">
+          <img class="guests__img" src="./images/guests/item-11.jpg" alt="">
+        </a>
+        <a class="guests__item" href="./images/guests/item-12.jpg">
+          <img class="guests__img" src="./images/guests/item-12.jpg" alt="">
+        </a>
+        <a class="guests__item" href="./images/guests/item-13.jpg">
+          <img class="guests__img" src="./images/guests/item-13.jpg" alt="">
+        </a>
+        <a class="guests__item" href="./images/guests/item-14.jpg">
+          <img class="guests__img" src="./images/guests/item-14.jpg" alt="">
+        </a>
+        <a class="guests__item" href="./images/guests/item-15.jpg">
+          <img class="guests__img" src="./images/guests/item-15.jpg" alt="">
+        </a>
+        <a class="guests__item" href="./images/guests/item-16.jpg">
+          <img class="guests__img" src="./images/guests/item-16.jpg" alt="">
+        </a>
+
+
+      </div>
+    </div>
+  </section>
+
+  <section class="choice">
+    <a class="choice-anchor" href="#" id="about"></a>
+    <div class="container">
+
+      <h3 class="choice__title title">Почему выбирают нас</h3>
+
+      <div class="choice__items">
+        <div class="choice__item wow animate__animated animate__fadeInLeft" data-wow-offset="200" data-animate="1">
+          <img class="choice__item-img" src="images/icons/crown.svg" alt="">
+          <h4 class="choice__item-title">КАЧЕСТВО</h4>
+          <p class="choice__item-text">Мы используем только премиум косметику и инструмент</p>
+        </div>
+        <div class="choice__item wow animate__animated animate__fadeInUp" data-wow-offset="200" data-animate="2">
+          <img class="choice__item-img" src="images/icons/diploma.svg" alt="">
+          <h4 class="choice__item-title">ПРОФЕССИОНАЛИЗМ</h4>
+          <p class="choice__item-text">В наших салонах работают профессиональный грумеры с дипломами и сертификатами</p>
+        </div>
+        <div class="choice__item wow animate__animated animate__fadeInRight" data-wow-offset="200" data-animate="3">
+          <img class="choice__item-img" src="images/icons/sterile.svg" alt="">
+          <h4 class="choice__item-title">БЕЗОПАСНОСТЬ</h4>
+          <p class="choice__item-text">Все инструменты проходят дезинфекцию и стерилизацию после каждого использования
+          </p>
+        </div>
+        <div class="choice__item wow animate__animated animate__fadeInLeft" data-wow-offset="200" data-animate="4">
+          <img class="choice__item-img" src="images/icons/wallet.svg" alt="">
+          <h4 class="choice__item-title">УДОБСТВО</h4>
+          <p class="choice__item-text">Для Вашего удобства мы принимаем все виды оплаты</p>
+        </div>
+        <div class="choice__item wow animate__animated animate__fadeInUp" data-wow-offset="200" data-animate="5">
+          <img class="choice__item-img" src="images/icons/parking.svg" alt="">
+          <h4 class="choice__item-title">РАСПОЛОЖЕНИЕ</h4>
+          <p class="choice__item-text">Наши салоны расположены в центре города и оборудованы бесплатной парковкой</p>
+        </div>
+        <div class="choice__item wow animate__animated animate__fadeInRight" data-wow-offset="200">
+          <img class="choice__item-img" src="images/icons/photo.svg" alt="">
+          <h4 class="choice__item-title">БОНУС</h4>
+          <p class="choice__item-text">Каждый гость получает фото в подарок</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="map">
+    <div class="container">
+      <h3 class="map__title title">
+        НАШИ САЛОНЫ
+      </h3>
+      <div class="map__box">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2722.4743080615176!2d31.991589476196292!3d46.972017812620976!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c5c9706549ef77%3A0xf2422b6b28597d42!2z0YPQuy4g0JHQvtC70YzRiNCw0Y8g0JzQvtGA0YHQutCw0Y8sIDcyLCDQndC40LrQvtC70LDQtdCyLCDQndC40LrQvtC70LDQtdCy0YHQutCw0Y8g0L7QsdC70LDRgdGC0YwsIDU0MDAw!5e0!3m2!1sru!2sua!4v1641475719876!5m2!1sru!2sua"
+          style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </div>
+  </section>
+  
+
+  <footer class="footer" id="contact">
+    <div class="container">
+      <div class="footer__wrapper">
+        <img class="footer__img wow animate__animated animate__fadeInLeft animate__delay-3s" data-wow-offset="200"
+          src="images/dog-bottom.png" alt="">
+        <div class="footer__contacts">
+          <a class="phone footer__phone" href="tel:+380500000000">+380 (50) 000 00 00</a>
+          <div class="address footer__address">Николаев, ул.Большая Морская, 72б</div>
+          <a class="phone footer__phone" href="tel:+380500000001">+380 (50) 000 00 01</a>
+          <div class="address footer__address">Николаев, ул.Соборная, 5в</div>
+          <a class="footer__email"
+            href="mailto:konfetka@gmail.com?subject=Вопрос с сайта&body=Привет, я зашел на твой сайт и у меня есть вопрос">konfetka@gmail.com</a>
+        </div>
+        <div class="footer__social">
+          <a class="footer__social-inner" href="#"><img class="footer__social-img" src="images/icons/inst.svg"
+              alt=""></a>
+          <a class="footer__social-inner" href="#"><img class="footer__social-img" src="images/icons/fb.svg" alt=""></a>
+          <a class="footer__social-inner" href="#"><img class="footer__social-img" src="images/icons/vk.svg" alt=""></a>
+        </div>
+        <div class="footer__time">
+
+          <h4 class="footer__time-title">ГРАФИК РАБОТЫ</h4>
+          <p class="footer__time-text">09:00 - 19:00</p>
+          <img class="footer__time-img" src="images/icons/clock.svg" alt="">
+        </div>
+      </div>
+    </div>
+    <a href="#" class="scrollToTop">
+      <img src="images/icons/top.svg" alt="">
+    </a>
+  </footer>
+
+
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>
